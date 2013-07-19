@@ -15,7 +15,7 @@ module DPL
       end
 
       def api
-        @api ||= EY::CloudClient.new(token, EY::CLI::UI.new)
+        @api ||= EY::CloudClient.new(:token => token)
       end
 
       def check_auth

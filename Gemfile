@@ -9,3 +9,8 @@ end
 group :openshift do
     gem 'rhc'
 end
+
+group :engineyard do
+  gem 'engineyard'
+  gem 'engineyard-cloud-client'
+end
